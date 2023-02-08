@@ -9,8 +9,8 @@ export const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       { index: true, element: <Home /> },
-      { path: 'game/:id', element: <FullGame /> },
-      { path: 'order', element: <Order /> },
+      { path: '/game/:id', element: <FullGame /> },
+      { path: '/order', element: <Order /> },
     ],
   },
 ]);

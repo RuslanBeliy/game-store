@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ruslanbeliy.github.io/game-store/",
+  "homepage": "https://github.com/RuslanBeliy/game-store",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "predeploy": "npm run build",
     "lint:es": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint:es:fix": "npm run lint:es -- --fix"
