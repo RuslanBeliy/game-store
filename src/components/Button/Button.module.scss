@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  border-radius: 15px;
+  color: #fff;
+  border: 0;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.primary {
+  background: rgb(85, 88, 237);
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: rgb(25, 61, 204);
+  }
+}
+.secondary {
+  background: rgb(88, 82, 84);
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background: rgb(117, 112, 114);
+  }
+}
+.s {
+  font-size: 14px;
+}
+.m {
+  font-size: 18px;
+}

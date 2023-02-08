@@ -1,0 +1,20 @@
+.wrap {
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+
+  button {
+    text-align: right;
+  }
+}
+
+.totalPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dis {
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.4);
+}
