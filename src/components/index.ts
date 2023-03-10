@@ -10,3 +10,4 @@ export * from './AddToCart/AddToCart';
 export * from './OrderItem/OrderItem';
 export * from './Skeleton/Skeleton';
 export * from './SuccessOrder/SuccessOrder';
+export * from './Spinner';

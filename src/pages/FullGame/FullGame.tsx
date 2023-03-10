@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 
 import s from './FullGame.module.scss';
 
-import { AddToCart } from '../../components';
+import { AddToCart, Spinner } from '../../components';
 import { useAppDispatch, useAppSelector } from '../../hooks';
 import { fetchOneGame } from '../../redux/slices/games-slice';
 
@@ -24,7 +24,8 @@ export const FullGame: FC<FullGameProps> = () => {
   }
 
   if (status === 'loading') {
-    return <h1 className={s.load}>Loading...</h1>;
+    // return <h1 className={s.load}>Loading...</h1>;
+    return <Spinner />;
   }
 
   if (!game) {
